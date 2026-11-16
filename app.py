@@ -196,10 +196,10 @@ NAV = ["🎛️ Live Ops", "🧭 Themes & Impact", "🗂️ Work Queue", "✅ Ap
 # ─────────────────────────────────────────────────────────────────────────────
 def pal(dark: bool) -> dict[str, str]:
     if dark:
-        return dict(bg="#0A0F1E", side="#0D1426", card="#101830", card2="#16203C", line="#223052",
-                    text="#E8EDF8", mut="#93A0BE", faint="#5E6B8C", mint="#2CE0A6", blue="#5AA7FF",
-                    violet="#A78BFA", amber="#FFB224", red="#FF5C7A", cyan="#22D3EE", lime="#A3E635",
-                    pink="#F472B6", hover="#1B2747", thumb="#2C3B63", track="#0D1426",
+        return dict(bg="#120D1C", side="#171024", card="#1D1530", card2="#261C3E", line="#3A2C5C",
+                    text="#F1EBFA", mut="#B3A6CC", faint="#7C6E9A", mint="#2CE0A6", blue="#6BB6FF",
+                    violet="#B794FF", amber="#FFB224", red="#FF5C7A", cyan="#22D3EE", lime="#A3E635",
+                    pink="#FF7EC8", hover="#2E2250", thumb="#4A3A78", track="#171024",
                     auro="0.16", shadow="rgba(0,0,0,0.45)", btnfg="#051220")
     return dict(bg="#F3F5FA", side="#EAEDF6", card="#FFFFFF", card2="#F6F8FD", line="#D9DEEC",
                 text="#17203A", mut="#5A6584", faint="#8B94AE", mint="#0B9E74", blue="#2563EB",
