@@ -224,7 +224,7 @@ html,body{background:var(--bg)!important;}
 [data-testid="stAppViewContainer"]{background:transparent!important;color:var(--text);}
 [data-testid="stMainBlockContainer"],[data-testid="stBlock-container"]{position:relative;z-index:1;padding-top:1.1rem;max-width:1520px;}
 [data-testid="stHeader"]{background:transparent;}
-#MainMenu,footer,[data-testid="stToolbar"],[data-testid="stDecoration"]{display:none!important;visibility:hidden;}
+footer,[data-testid="stDecoration"]{display:none!important;visibility:hidden;}
 [data-testid="stSidebar"]{background:var(--side)!important;border-right:1px solid var(--line);width:302px!important;}
 [data-testid="stSidebar"] *{color:var(--text);}
 [data-testid="stSidebarCollapsedControl"] button{color:var(--mint)!important;}
